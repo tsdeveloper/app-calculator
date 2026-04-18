@@ -99,9 +99,9 @@ const Calculator = () => {
                     </button>
                 ))}
                 {operations.map((operation: string) =>(
-                   <button key={operation} onClick={() => handleOperation(operation)}>
-                       {operation}
-                   </button>
+                    <button key={operation} onClick={() => handleOperation(operation)}>
+                        {operation}
+                    </button>
                 ))}
                 <button onClick={() => handleCalculate()}>
                     =
